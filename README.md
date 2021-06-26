@@ -1,6 +1,21 @@
 # JWTSample
 JWT with .NetCore Sample
 For Swagger 'Swashbuckle.AspNetCore' is used (6.1.4)
+by default 3 user's are configured inside `JWTSample.DataContext.SampleDbContext` which are as follows :
+1. admin - for admin user token will be of 45 Minutes
+2. test - for test user token will be of 5 Minutes
+3. user - for use user token will be of 5 Minutes
+
+!JWT Token Expiry is based on Role in this sample
+```json
+  "JWTTokenConfig": {
+	"AdminExpiry": 45,
+	"Aud": "JWT.Sample.API",
+	"Iss": "JWT.Service",
+	"Secret": "MySecretKeyisverylongenough@!()",
+	"UserExpiry": 5
+  }
+```
 
 ***Generate JWT Token:***
 ```csharp
