@@ -1,0 +1,14 @@
+C:\Users\Dell\source\repos\JWTSample\JWTSample\bin\Debug\netcoreapp2.2\JWTSample.deps.json
+C:\Users\Dell\source\repos\JWTSample\JWTSample\bin\Debug\netcoreapp2.2\JWTSample.runtimeconfig.json
+C:\Users\Dell\source\repos\JWTSample\JWTSample\bin\Debug\netcoreapp2.2\JWTSample.runtimeconfig.dev.json
+C:\Users\Dell\source\repos\JWTSample\JWTSample\bin\Debug\netcoreapp2.2\JWTSample.dll
+C:\Users\Dell\source\repos\JWTSample\JWTSample\obj\Debug\netcoreapp2.2\JWTSample.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\JWTSample\JWTSample\obj\Debug\netcoreapp2.2\JWTSample.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\JWTSample\JWTSample\obj\Debug\netcoreapp2.2\JWTSample.RazorAssemblyInfo.cache
+C:\Users\Dell\source\repos\JWTSample\JWTSample\obj\Debug\netcoreapp2.2\JWTSample.RazorAssemblyInfo.cs
+C:\Users\Dell\source\repos\JWTSample\JWTSample\obj\Debug\netcoreapp2.2\JWTSample.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\JWTSample\JWTSample\obj\Debug\netcoreapp2.2\JWTSample.AssemblyInfo.cs
+C:\Users\Dell\source\repos\JWTSample\JWTSample\obj\Debug\netcoreapp2.2\JWTSample.RazorTargetAssemblyInfo.cache
+C:\Users\Dell\source\repos\JWTSample\JWTSample\bin\Debug\netcoreapp2.2\JWTSample.pdb
+C:\Users\Dell\source\repos\JWTSample\JWTSample\obj\Debug\netcoreapp2.2\JWTSample.dll
+C:\Users\Dell\source\repos\JWTSample\JWTSample\obj\Debug\netcoreapp2.2\JWTSample.pdb
