@@ -1,12 +1,11 @@
 # JWTSample
-JWT with .NetCore Sample
-> For Swagger 'Swashbuckle.AspNetCore' is used (6.1.4)
-> By default 3 user's are configured inside `JWTSample.DataContext.SampleDbContext` which are as follows :
-1. **admin** - for admin user token will be of 45 Minutes, (password are same as username)
-2. **test** - for test user token will be of 5 Minutes, (password are same as username)
-3. **user** - for use user token will be of 5 Minutes, (password are same as username)
+JWT with .NetCore Sample, For Swagger 'Swashbuckle.AspNetCore' is used (6.1.4)
+- By default 3 user's are configured inside `JWTSample.DataContext.SampleDbContext` which are as follows :
+- 1. **admin** - for admin user token will be of 45 Minutes, (password are same as username)
+- 2. **test** - for test user token will be of 5 Minutes, (password are same as username)
+- 3. **user** - for use user token will be of 5 Minutes, (password are same as username)
 
-! JWT Token Expiry is based on Role in this sample `appsettings.Development.json`
+** JWT Token Expiry is based on Role in this sample `appsettings.Development.json`**
 ```json
   "JWTTokenConfig": {
 	"AdminExpiry": 45,
@@ -138,6 +137,6 @@ JWT with .NetCore Sample
 	value => Bearer JWTTokenValue
 	```
 	
-####### For more details about JWT please visit [JWT](https://jwt.io/)
+###### For more details about JWT please visit [JWT](https://jwt.io/)
 
-####### For JWT token Decode please visit [JWT](https://jwt.ms/)
+###### For JWT token Decode please visit [JWT](https://jwt.ms/)
