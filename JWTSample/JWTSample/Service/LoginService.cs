@@ -58,8 +58,8 @@ namespace JWTSample.Service
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(secretKey), SecurityAlgorithms.HmacSha256Signature)
             };
             var tokenHandler = new JwtSecurityTokenHandler();
-            var token = tokenHandler.CreateToken(tokenDescriptor);
-            var originalToken = tokenHandler.WriteToken(token);
+            var securityToken = tokenHandler.CreateToken(tokenDescriptor);
+            var originalToken = tokenHandler.WriteToken(securityToken);
 
             LoginResponseDTO loginResponseDTO = new LoginResponseDTO
             {

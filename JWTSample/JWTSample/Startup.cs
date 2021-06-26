@@ -44,7 +44,6 @@ namespace JWTSample
                     var iss = Configuration.GetSection("JWTTokenConfig:Iss").Value;
                     var secretKey = Encoding.ASCII.GetBytes(Configuration.GetSection("JWTTokenConfig:Secret").Value);
                     var signingKey = new SymmetricSecurityKey(secretKey);
-
                     var tokenValidationParam = new TokenValidationParameters
                     {
                         ValidateAudience = true,
@@ -57,7 +56,6 @@ namespace JWTSample
                         RequireExpirationTime = true,
                         ClockSkew = TimeSpan.Zero
                     };
-
                     opt.RequireHttpsMetadata = false;                    
                     opt.TokenValidationParameters = tokenValidationParam;
                 });
